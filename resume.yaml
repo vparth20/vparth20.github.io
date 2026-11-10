@@ -1,0 +1,118 @@
+# ============================================================
+#  SINGLE SOURCE OF TRUTH for Vishal's resume AND website.
+#  Edit this file -> push to GitHub -> the PDF and the site
+#  rebuild automatically (see .github/workflows/build.yml).
+#  Format: RenderCV (https://docs.rendercv.com), theme follows
+#  the r/EngineeringResumes wiki template.
+# ============================================================
+cv:
+  name: Vishal Parthasarathy
+  location: Reno, NV
+  email: vishalparth20@gmail.com
+  # phone: kept OUT of this public repo. For your private PDF run:
+  #   RESUME_PHONE="+1-XXX-XXX-XXXX" python scripts/build.py
+  website: https://vparth20.github.io
+  social_networks:
+    - network: LinkedIn
+      username: vishalparthasarathy
+    - network: GitHub
+      username: vparth20
+  sections:
+    experience:
+      - company: Tesla, Inc.
+        position: Manufacturing Engineer, LFP Cell (Megapack)
+        location: Sparks, NV
+        start_date: 2025-08
+        end_date: present
+        highlights:
+          - Own 30+ Calendaring, Winding, and Jelly-Roll tools from bring-up and qualification through sustaining to OEE targets with Quality, NPI, and the OEM
+          - Raised winder yield 10% by adding servo motors and drives that hold web tension through safety-door interventions, and stabilized hot-knife temperature during recovery, cutting 35 s of lost run time per recovery
+          - Qualified 6 tools and stations (2 winders; preheat, cold-press, X-ray, and pairing stations) through machine-function and error-proofing checks into production; cut manual-inspection cycle time 2 s to reach 8 PPM
+          - Modified PLC logic on 4 electrode tools to stream machine state into the plant equipment-tracking system, then validated the availability dashboard with SQL against production databases, giving the line trusted real-time downtime and Pareto loss data; added HMI prompts for downtime classification
+          - Increased line throughput by 120 UPH (+25% PPM) by writing pallet-tracking logic in Omron Sysmac Studio
+          - Root-caused a P1 fall-hazard near miss to a core-length mismatch; led EHS, NPI, and the OEM to a layered fix (3D-printed reference pins, redesigned V-block, guarding, core-measurement check) with zero recurrence
+          - Ran 8D on a high-severity fault through CAPA; wrote the laser-gauge calibration procedure, whose data then caught 2 out-of-spec incoming material lots; authored the equipment maintenance manual and a spares plan to cut MTTR
+      - company: SRG Global (Koch Industries)
+        position: Manufacturing Automation Engineer, Robotics
+        location: Covington, GA
+        start_date: 2024-07
+        end_date: 2025-08
+        highlights:
+          - Integrated FANUC robots with Keyence safety light curtains, SMC valve stacks, and vacuum switches; commissioned and validated new cells through production handoff
+          - Cut scrap cost 20% by deploying Keyence laser marking with AI-camera read verification on polycarbonate parts, plus an Ignition HMI retry sequence for failed reads
+          - Queried historical measurement data in MySQL to redesign part fixtures that met customer specs and reduced returns, saving about $3,000 per day
+      - company: Tesla, Inc.
+        position: Manufacturing Engineering Co-op, Drive Unit
+        location: Sparks, NV
+        start_date: 2023-01
+        end_date: 2024-04
+        highlights:
+          - Wrote Allen-Bradley PLC logic that eliminated drive-unit oil overfill, releasing 58 contained units in 10 hours; presented safety-circuit preventive actions in CAPA
+          - Brought a dynamometer back after a month-long outage by root-causing across electrical, pneumatic, and hydraulic systems; improved its efficiency 3%
+          - Designed fixtures in SOLIDWORKS with GD&T, ran vendor RFQs and BOMs, and cut procurement cost 20%; worked with firmware engineers to raise flash-station availability 2%
+    # projects: are pulled in from site.yaml at build time (on_resume: true)
+    skills:
+      # Wiki rule: 3-4 lines max, most important first, match each job posting
+      - label: Robotics and Controls
+        details: FANUC (TP, ROBOGUIDE), Allen-Bradley, Siemens TIA Portal, Omron Sysmac Studio, Ignition HMI, SCADA, servo drives, VFDs, EtherCAT, EtherNet/IP, PROFINET
+      - label: Safety and Vision
+        details: Safety PLCs and relays, light curtains, Keyence interlocks, risk assessments, Keyence vision and laser markers, laser thickness gauges
+      - label: Software
+        details: Python (FastAPI), SQL (MySQL, SQLite), C/C++, Git
+      - label: Design and Quality
+        details: SOLIDWORKS, GD&T, EOAT, fixtures, pneumatics, hydraulics, PFMEA, 8D, CAPA, DMAIC, FAI
+    education:
+      - institution: Purdue University
+        area: Mechanical Engineering
+        degree: MS
+        date: Dec 2023
+      - institution: Anna University
+        area: Mechanical Engineering
+        degree: BE
+        date: May 2021
+design:
+  theme: engineeringresumes
+  page:
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.5in
+    right_margin: 0.5in
+    show_top_note: false
+  typography:
+    alignment: left
+    line_spacing: 0.45em
+    font_size:
+      body: 10pt
+      name: 22pt
+  header:
+    space_below_name: 0.3cm
+    space_below_connections: 0.3cm
+  section_titles:
+    space_above: 0.28cm
+    space_below: 0.2cm
+  sections:
+    space_between_regular_entries: 0.25cm
+    space_between_text_based_entries: 0.1cm
+  entries:
+    date_and_location_width: 3.6cm
+    highlights:
+      space_above: 0.05cm
+      space_between_items: 0.05cm
+  templates:
+    experience_entry:
+      main_column: "**POSITION**, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS"
+      date_and_location_column: DATE
+    normal_entry:
+      main_column: "**NAME** -- LOCATION\nSUMMARY\nHIGHLIGHTS"
+      date_and_location_column: DATE
+locale:
+  language: english
+  present: Present
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    pdf_path: OUTPUT_FOLDER/Vishal_Parthasarathy_Resume.pdf
+    png_path: OUTPUT_FOLDER/Vishal_Parthasarathy_Resume.png
+    dont_generate_markdown: true
+    dont_generate_html: true

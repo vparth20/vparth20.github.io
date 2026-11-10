@@ -1,0 +1,48 @@
+# ============================================================
+#  WEBSITE CONTENT + PROJECTS + UPDATE LOG
+#  - Work history, skills, education come from resume.yaml.
+#  - Projects live HERE only. Any project with `on_resume: true`
+#    is automatically added to the PDF resume at build time.
+#  - Add a line under `updates:` whenever you finish something.
+# ============================================================
+site:
+  github_username: vparth20
+  title: Vishal Parthasarathy | Robotics and Controls Engineer
+  headline: I build robots, automation cells, and the software that runs them.
+  about:
+    - I'm a manufacturing and automation engineer at Tesla in Reno, NV, where I own battery-cell production tools from first power-on to stable, high-yield production.
+    - Before that I integrated FANUC robot cells at SRG Global and wrote PLC logic on Tesla's drive-unit line. I hold an M.S. in Mechanical Engineering from Purdue.
+    - These days I'm pushing deeper into robotics software (ROS 2, C++, Python, computer vision) and documenting every build here.
+  # Lines typed out in the hero terminal. Keep them short.
+  terminal:
+    - "$ whoami"
+    - "vishal: robotics + controls engineer"
+    - "$ ros2 launch vishal portfolio.launch.py"
+    - "[INFO] PLCs: online | robots: homed | coffee: low"
+  # Optional hero photo: drop a file in assets/img/ and set the path
+  photo: ""
+  # How many `on_resume: true` projects to put on the PDF (keeps it 1 page)
+  resume_max_projects: 2
+
+projects:
+  - name: ROS 2 Home Assistant Robot
+    status: In progress
+    # start_date: YYYY-MM      # TODO: month you started
+    summary: A ROS 2 mobile robot on a Raspberry Pi 5 with an LLM as its reasoning layer, aimed at everyday home tasks like plant-health checks and knowing when the laundry is done.
+    tags: [ROS 2, Python, Raspberry Pi, Computer Vision, LLM]
+    image: ""
+    links:
+      github: https://github.com/vparth20
+    on_resume: true
+    resume_highlights:
+      - Building a ROS 2 mobile robot on a Raspberry Pi 5 (Yahboom MicroROS-Pi5) with an LLM as its reasoning layer for plant-health checks and household monitoring
+
+# Things you built but don't actively use: one line on the site, no card, never on the resume.
+other_builds:
+  - Personal budget tracker web app (React, FastAPI)
+  - Carnatic raga identifier (audio ML experiment)
+
+# Newest first. One line each: what you did, in plain words.
+updates:
+  - date: 2026-11-09
+    text: Launched this site; resume and portfolio now build from one source
