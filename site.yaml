@@ -27,7 +27,8 @@ site:
 projects:
   - name: ROS 2 Home Assistant Robot
     status: In progress
-    # start_date: YYYY-MM      # TODO: month you started
+    start_date: 2026-10
+    end_date: present
     summary: A ROS 2 mobile robot on a Raspberry Pi 5 with an LLM as its reasoning layer, aimed at everyday home tasks like plant-health checks and knowing when the laundry is done.
     tags: [ROS 2, Python, Raspberry Pi, Computer Vision, LLM]
     image: ""
