@@ -28,7 +28,7 @@ cv:
           - Commissioned 4 calendaring tools, configuring PLC and IPC networking for MES connectivity, and debugging faults through production release
           - Qualified 12 winders to 95% availability and 85% FPY, plus 8 jelly-roll shaping machines, through PLC machine-function, error-proofing, and cold-press and hipot linearity-bias tests
           - Raised yield 10% and availability 4% on 36 winders by retrofitting SOS servo drives through safety PLCs and relays to hold web tension and hot-knife power when safety doors open
-          - Qualified 6 tools and stations (2 winders; preheat, cold-press, X-ray, and pairing stations) through machine-function and error-proofing checks into production; cut manual-inspection cycle time 2 s to reach 8 PPM
+          - Cut JR inspection cycle time 2 s, raising throughput from 6.3 to 8 PPM, by modifying PLC pallet pre-stop logic to stage the next pallet early and designing an SLA-printed go/no-go gauge for tab alignment
           - Modified PLC logic on 4 electrode tools to stream machine state into the plant equipment-tracking system, then validated the availability dashboard with SQL against production databases, giving the line trusted real-time downtime and Pareto loss data; added HMI prompts for downtime classification
           - Increased line throughput by 120 UPH (+25% PPM) by writing pallet-tracking logic in Omron Sysmac Studio
           - Root-caused a P1 fall-hazard near miss to a core-length mismatch; led EHS, NPI, and the OEM to a layered fix (3D-printed reference pins, redesigned V-block, guarding, core-measurement check) with zero recurrence
