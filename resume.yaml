@@ -26,7 +26,7 @@ cv:
         end_date: present
         highlights:
           - Raised yield 10% and availability 4% on 24 winders by retrofitting SOS servo drives through safety PLCs and relays to hold web tension and hot-knife power when safety doors open
-          - Raised winder availability 5%+ by rezoning safety guarding for live pancake loading on idle unwinders, designing doors, integrating Keyence interlocks and request-to-enter controls, and leading the safety re-buyoff
+          - Raised winder availability ~6.6% by rezoning safety guarding for live pancake loading on idle unwinders, designing doors, integrating Keyence interlocks and request-to-enter controls, and leading the safety re-buyoff
           - Qualified 12 winders to 95% availability and 85% FPY, plus 8 jelly-roll shaping machines, through PLC machine-function, error-proofing, and cold-press and hipot linearity-bias tests
           - Commissioned 4 calendaring tools, configuring PLC and IPC networking for MES connectivity, and debugging faults through production release
           - Raised availability 2% on 4 calendaring tools by validating Omron PLC OEE state reporting with SQL scripts, adding fault reason codes and HMI downtime prompts, and eliminating the top Pareto faults
