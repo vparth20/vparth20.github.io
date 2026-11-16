@@ -32,7 +32,7 @@ cv:
           - Raised availability 2% on 4 calendaring tools by validating Omron PLC OEE state reporting with SQL scripts, adding fault reason codes and HMI downtime prompts, and eliminating the top Pareto faults
           # (slot reserved for a future Tesla bullet; old 120 UPH pallet-tracking line removed as overlapping)
           - Root-caused a P1 mother-roll fall near miss to a 110 vs 120 cm core mismatch, then designed, sourced, and installed extended rack fixture blocks that hard-stop core over-travel, with zero recurrence
-          - Ran 8D on a high-severity fault through CAPA; wrote the laser-gauge calibration procedure, whose data then caught 2 out-of-spec incoming material lots; authored the equipment maintenance manual and a spares plan to cut MTTR
+          - Raised winder availability 5%+ by rezoning safety guarding for live pancake loading on idle unwinders, designing doors, integrating Keyence interlocks and request-to-enter controls, and leading the safety re-buyoff
       - company: SRG Global (Koch Industries)
         position: Manufacturing Automation Engineer, Robotics
         location: Covington, GA
