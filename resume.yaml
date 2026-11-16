@@ -31,7 +31,7 @@ cv:
           - Cut JR inspection cycle time 2 s, raising throughput from 6.3 to 8 PPM, by modifying PLC pallet pre-stop logic to stage the next pallet early and designing an SLA-printed go/no-go gauge for tab alignment
           - Raised availability 2% on 4 calendaring tools by validating Omron PLC OEE state reporting with SQL scripts, adding fault reason codes and HMI downtime prompts, and eliminating the top Pareto faults
           # (slot reserved for a future Tesla bullet; old 120 UPH pallet-tracking line removed as overlapping)
-          - Root-caused a P1 fall-hazard near miss to a core-length mismatch; led EHS, NPI, and the OEM to a layered fix (3D-printed reference pins, redesigned V-block, guarding, core-measurement check) with zero recurrence
+          - Root-caused a P1 mother-roll fall near miss to a 110 vs 120 cm core mismatch, then designed, sourced, and installed extended rack fixture blocks that hard-stop core over-travel, with zero recurrence
           - Ran 8D on a high-severity fault through CAPA; wrote the laser-gauge calibration procedure, whose data then caught 2 out-of-spec incoming material lots; authored the equipment maintenance manual and a spares plan to cut MTTR
       - company: SRG Global (Koch Industries)
         position: Manufacturing Automation Engineer, Robotics
