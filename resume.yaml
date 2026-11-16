@@ -11,16 +11,14 @@ cv:
   email: vishalparth20@gmail.com
   # phone: kept OUT of this public repo. For your private PDF run:
   #   RESUME_PHONE="+1-XXX-XXX-XXXX" python scripts/build.py
-  website: https://vparth20.github.io
+  # website: https://vparth20.github.io   (add back once the site is fully built)
   social_networks:
     - network: LinkedIn
       username: vishalparthasarathy
-    - network: GitHub
-      username: vparth20
   sections:
     experience:
       - company: Tesla, Inc.
-        position: Manufacturing Engineer, LFP Cell (Megapack)
+        position: Manufacturing Equipment Engineer, LFP Cell (Megapack)
         location: Sparks, NV
         start_date: 2025-08
         end_date: present

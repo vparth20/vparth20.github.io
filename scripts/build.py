@@ -51,7 +51,7 @@ def resume_with_projects(resume, site):
     for p in site.get("projects", []):
         if not p.get("on_resume"):
             continue
-        link = (p.get("links") or {}).get("github")
+        link = (p.get("links") or {}).get("github") if site.get("site", {}).get("show_github_on_resume") else None
         entry = {"name": p["name"]}
         if link:
             label = link.replace("https://", "").replace("http://", "")

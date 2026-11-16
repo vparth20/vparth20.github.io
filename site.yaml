@@ -23,6 +23,8 @@ site:
   photo: ""
   # How many `on_resume: true` projects to put on the PDF (keeps it 1 page)
   resume_max_projects: 2
+  # Set to true once the site is ready to share on the resume
+  show_github_on_resume: false
 
 projects:
   - name: ROS 2 Home Assistant Robot
