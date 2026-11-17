@@ -37,7 +37,7 @@ cv:
         start_date: 2024-07
         end_date: 2025-08
         highlights:
-          - Integrated FANUC robots with Keyence safety light curtains, SMC valve stacks, and vacuum switches; commissioned and validated new cells through production handoff
+          - Integrated FANUC robots with Keyence safety light curtains, SMC valve stacks, and vacuum switches, commissioning and validating new cells through production handoff
           - Cut scrap cost 20% by deploying Keyence laser marking with AI-camera read verification on polycarbonate parts, plus an Ignition HMI retry sequence for failed reads
           - Queried historical measurement data in MySQL to redesign part fixtures that met customer specs and reduced returns, saving about $3,000 per day
       - company: Tesla, Inc.
@@ -46,9 +46,10 @@ cv:
         start_date: 2023-01
         end_date: 2024-04
         highlights:
-          - Wrote Allen-Bradley PLC logic that eliminated drive-unit oil overfill, releasing 58 contained units in 10 hours; presented safety-circuit preventive actions in CAPA
-          - Brought a dynamometer back after a month-long outage by root-causing across electrical, pneumatic, and hydraulic systems; improved its efficiency 3%
-          - Designed fixtures in SOLIDWORKS with GD&T, ran vendor RFQs and BOMs, and cut procurement cost 20%; worked with firmware engineers to raise flash-station availability 2%
+          - Cut scrap cost 38% on the rotor-stator press by adding a Studio 5000 PLC sequence and proximity sensors that moved the rotor gantry to a safe position after a high-volume stator design change
+          - Wrote Allen-Bradley PLC logic that eliminated drive-unit oil overfill, releasing 58 contained units in 10 hours
+          - Brought a dynamometer back after a month-long outage by root-causing electrical, pneumatic, and hydraulic faults
+          - Designed fixtures in SOLIDWORKS with GD&T, running vendor RFQs and BOMs to cut procurement cost 20%
     # projects: are pulled in from site.yaml at build time (on_resume: true)
     skills:
       # Wiki rule: 3-4 lines max, most important first, match each job posting
