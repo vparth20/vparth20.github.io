@@ -41,7 +41,7 @@ cv:
           - Cut scrap cost 20% by deploying Keyence laser marking with AI-camera read verification on polycarbonate parts, plus an Ignition HMI retry sequence for failed reads
           - Queried historical measurement data in MySQL to redesign part fixtures that met customer specs and reduced returns, saving about $3,000 per day
       - company: Tesla, Inc.
-        position: Manufacturing Engineering Co-op, Drive Unit
+        position: Manufacturing Equipment Engineer Co-op, Drive Unit
         location: Sparks, NV
         start_date: 2023-01
         end_date: 2024-04
