@@ -13,65 +13,64 @@ cv:
   #   RESUME_PHONE="+1-XXX-XXX-XXXX" python scripts/build.py
   # website: https://vparth20.github.io   (add back once the site is fully built)
   social_networks:
-    - network: LinkedIn
-      username: vishalparthasarathy
+  - network: LinkedIn
+    username: vishalparthasarathy
   sections:
     experience:
-      - company: Tesla, Inc.
-        position: Manufacturing Equipment Engineer, LFP Cell (Megapack)
-        location: Sparks, NV
-        start_date: 2025-08
-        end_date: present
-        highlights:
-          - Raised yield 10% and availability 4% on 24 winders by retrofitting SOS servo drives through safety PLCs and relays to hold web tension and hot-knife power when safety doors open
-          - Raised winder availability ~6.6% by rezoning safety guarding for live pancake loading on idle unwinders, designing doors, integrating Keyence interlocks and request-to-enter controls, and leading the safety re-buyoff
-          - Qualified 12 winders to 95% availability and 85% FPY, plus 8 jelly-roll shaping machines, through PLC machine-function, error-proofing, and cold-press and hipot linearity-bias tests
-          - Commissioned 4 calendaring tools, configuring PLC and IPC networking for MES connectivity, and debugging faults through production release
-          - Raised availability 2% on 4 calendaring tools by validating Omron PLC OEE state reporting with SQL scripts, adding fault reason codes and HMI downtime prompts, and eliminating the top Pareto faults
-          # (slot reserved for a future Tesla bullet; old 120 UPH pallet-tracking line removed as overlapping)
-          - Cut JR inspection cycle time 2 s, raising throughput from 6.3 to 8 PPM, by modifying PLC pallet pre-stop logic to stage the next pallet early and designing an SLA-printed go/no-go gauge for tab alignment
-          - Root-caused a P1 mother-roll fall near miss to a 110 vs 120 cm core mismatch, then designed, sourced, and installed extended rack fixture blocks that hard-stop core over-travel, with zero recurrence
-      - company: SRG Global (Koch Industries)
-        position: Manufacturing Automation Engineer, Robotics
-        location: Covington, GA
-        start_date: 2024-07
-        end_date: 2025-08
-        highlights:
-          - Integrated FANUC robots with Keyence safety light curtains, SMC valve stacks, and vacuum switches, commissioning and validating new cells through production handoff
-          - Cut scrap cost 20% by deploying Keyence laser marking with AI-camera read verification on polycarbonate parts, plus an Ignition HMI retry sequence for failed reads
-          - Queried historical measurement data in MySQL to redesign part fixtures that met customer specs and reduced returns, saving about $3,000 per day
-      - company: Tesla, Inc.
-        position: Manufacturing Equipment Engineer, Drive Unit
-        summary: Co-op Jan–Aug 2023, returned full-time Jan–Apr 2024 (12 months total)
-        location: Sparks, NV
-        start_date: 2023-01
-        end_date: 2024-04
-        highlights:
-          - Owned 15+ production machines on the final assembly line building 20,000 drive units per week
-          - Cut scrap cost 38% on the rotor-stator press by adding a Studio 5000 PLC sequence and proximity sensors that moved the rotor gantry to a safe position after a high-volume stator design change
-          - Wrote Allen-Bradley PLC logic that eliminated drive-unit oil overfill, releasing 58 contained units in 10 hours
-          - Brought a dynamometer back after a month-long outage by root-causing electrical, pneumatic, and hydraulic faults
-          - Designed fixtures in SOLIDWORKS with GD&T, running vendor RFQs and BOMs to cut procurement cost 20%
-    # projects: are pulled in from site.yaml at build time (on_resume: true)
+    - company: Tesla, Inc.
+      position: Manufacturing Equipment Engineer, LFP Cell (Megapack)
+      location: Sparks, NV
+      start_date: 2025-08
+      end_date: present
+      highlights:
+      - Raised yield 10% and availability 4% on 24 winders by retrofitting SOS servo drives through safety PLCs and relays to hold web tension and hot-knife power when safety doors open
+      - Raised winder availability ~6.6% by rezoning safety guarding for live pancake loading on idle unwinders, designing doors, integrating Keyence interlocks and request-to-enter controls, and leading the safety re-buyoff
+      - Qualified 12 winders to 95% availability and 85% FPY, plus 8 jelly-roll shaping machines, through PLC machine-function, error-proofing, and cold-press and hipot linearity-bias tests
+      - Commissioned 4 calendaring tools, configuring PLC and IPC networking for MES connectivity, and debugging faults through production release
+      - Raised availability 2% on 4 calendaring tools by validating Omron PLC OEE state reporting with SQL scripts, adding fault reason codes and HMI downtime prompts, and eliminating the top Pareto faults
+      - Cut JR inspection cycle time 2 s, raising throughput from 6.3 to 8 PPM, by modifying PLC pallet pre-stop logic to stage the next pallet early and designing an SLA-printed go/no-go gauge for tab alignment
+      - Root-caused a P1 mother-roll fall near miss to a 110 vs 120 cm core mismatch, then designed, sourced, and installed extended rack fixture blocks that hard-stop core over-travel, with zero recurrence
+    - company: SRG Global (Koch Industries)
+      position: Manufacturing Automation Engineer, Robotics
+      location: Covington, GA
+      start_date: 2024-07
+      end_date: 2025-08
+      highlights:
+      - Cut EOAT changeover time 60% with an automatic tool changer and designed 4 EOATs with pneumatics and part-presence sensing, simulating each cell in ROBOGUIDE to program and validate FANUC paths and payloads
+      - Raised FPY from 96% to 98% on a FANUC 6-axis demolding and de-gating cell by tuning EOAT pneumatic pressure, refining robot pick paths, and reprogramming part-specific gate cut angles to protect Class A surfaces
+      - Automated short-shot inspection with Keyence IV4 cameras wired to FANUC digital I/O to route rejects, removing one inspector per shift with zero customer escapes
+      - Cut scrap cost 20% by deploying Keyence laser marking with AI-camera read verification on polycarbonate parts, plus an Ignition HMI retry sequence for failed reads
+    - company: Tesla, Inc.
+      position: Manufacturing Equipment Engineer, Drive Unit
+      summary: Co-op Jan–Aug 2023, returned full-time Jan–Apr 2024 (12 months total)
+      location: Sparks, NV
+      start_date: 2023-01
+      end_date: 2024-04
+      highlights:
+      - Owned 15+ production machines on the final assembly line building 20,000 drive units per week
+      - Cut 20% weekly rotor-stator press scrap from gantry crashes after a stator part-type change by adding a Studio 5000 PLC step that parks the gantry in a safe position until parts exit the station
+      - Eliminated a 38% scrap-count increase at the vision station by adding the pre-stop pallet release to the station interlocks in the Allen-Bradley PLC logic, stopping the robot from crashing into parts
+      - Commissioned PLC logic for a new gear-case load conveyor and assisted with SAT in a 4-day downtime window, reviewing logic and troubleshooting RFID and part-presence faults to ramp production to 20,000 drive units per week
+      - Restored spin and flash station yield 0.8% to 99% FPY during an NPI oil-pump cutover by flagging LPM spikes and aligning Quality, Design Engineering, and other-site test teams on pump cavitation as the root cause
     skills:
       # Wiki rule: 3-4 lines max, most important first, match each job posting
-      - label: Robotics and Controls
-        details: FANUC (TP, ROBOGUIDE), Allen-Bradley, Siemens TIA Portal, Omron Sysmac Studio, Ignition HMI, SCADA, servo drives, VFDs, EtherCAT, EtherNet/IP, PROFINET
-      - label: Safety and Vision
-        details: Safety PLCs and relays, light curtains, Keyence interlocks, risk assessments, Keyence vision and laser markers, laser thickness gauges
-      - label: Software
-        details: Python (FastAPI), SQL (MySQL, SQLite), C/C++, Git
-      - label: Design and Quality
-        details: SOLIDWORKS, GD&T, EOAT, fixtures, pneumatics, hydraulics, PFMEA, 8D, CAPA, DMAIC, FAI
+    - label: Robotics and Controls
+      details: FANUC (TP, ROBOGUIDE), Allen-Bradley, Siemens TIA Portal, Omron Sysmac Studio, Ignition HMI, SCADA, servo drives, VFDs, EtherCAT, EtherNet/IP, PROFINET
+    - label: Safety and Vision
+      details: Safety PLCs and relays, light curtains, Keyence interlocks, risk assessments, Keyence vision and laser markers, laser thickness gauges
+    - label: Software
+      details: Python (FastAPI), SQL (MySQL, SQLite), C/C++, Git
+    - label: Design and Quality
+      details: SOLIDWORKS, GD&T, EOAT, fixtures, pneumatics, hydraulics, PFMEA, 8D, CAPA, DMAIC, FAI
     education:
-      - institution: Purdue University
-        area: Mechanical Engineering
-        degree: MS
-        date: Dec 2023
-      - institution: Anna University
-        area: Mechanical Engineering
-        degree: BE
-        date: May 2021
+    - institution: Purdue University
+      area: Mechanical Engineering
+      degree: MS
+      date: Dec 2023
+    - institution: Anna University
+      area: Mechanical Engineering
+      degree: BE
+      date: May 2021
 design:
   theme: engineeringresumes
   page:
@@ -90,10 +89,10 @@ design:
     space_below_name: 0.3cm
     space_below_connections: 0.3cm
   section_titles:
-    space_above: 0.28cm
+    space_above: 0.22cm
     space_below: 0.2cm
   sections:
-    space_between_regular_entries: 0.25cm
+    space_between_regular_entries: 0.2cm
     space_between_text_based_entries: 0.1cm
   entries:
     date_and_location_width: 3.6cm
