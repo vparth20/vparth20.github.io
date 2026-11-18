@@ -41,11 +41,13 @@ cv:
           - Cut scrap cost 20% by deploying Keyence laser marking with AI-camera read verification on polycarbonate parts, plus an Ignition HMI retry sequence for failed reads
           - Queried historical measurement data in MySQL to redesign part fixtures that met customer specs and reduced returns, saving about $3,000 per day
       - company: Tesla, Inc.
-        position: Manufacturing Equipment Engineer Co-op, Drive Unit
+        position: Manufacturing Equipment Engineer, Drive Unit
+        summary: Co-op Jan–Aug 2023, returned full-time Jan–Apr 2024 (12 months total)
         location: Sparks, NV
         start_date: 2023-01
         end_date: 2024-04
         highlights:
+          - Owned 15+ production machines on the final assembly line building 20,000 drive units per week
           - Cut scrap cost 38% on the rotor-stator press by adding a Studio 5000 PLC sequence and proximity sensors that moved the rotor gantry to a safe position after a high-volume stator design change
           - Wrote Allen-Bradley PLC logic that eliminated drive-unit oil overfill, releasing 58 contained units in 10 hours
           - Brought a dynamometer back after a month-long outage by root-causing electrical, pneumatic, and hydraulic faults
