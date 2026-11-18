@@ -54,14 +54,14 @@ cv:
       - Restored spin and flash station yield 0.8% to 99% FPY during an NPI oil-pump cutover by flagging LPM spikes and aligning Quality, Design Engineering, and other-site test teams on pump cavitation as the root cause
     skills:
       # Wiki rule: 3-4 lines max, most important first, match each job posting
-    - label: Robotics and Controls
-      details: FANUC (TP, ROBOGUIDE), Allen-Bradley, Siemens TIA Portal, Omron Sysmac Studio, Ignition HMI, SCADA, servo drives, VFDs, EtherCAT, EtherNet/IP, PROFINET
-    - label: Safety and Vision
-      details: Safety PLCs and relays, light curtains, Keyence interlocks, risk assessments, Keyence vision and laser markers, laser thickness gauges
-    - label: Software
-      details: Python (FastAPI), SQL (MySQL, SQLite), C/C++, Git
+    - label: Controls
+      details: Allen-Bradley Studio 5000, Siemens TIA Portal, Omron Sysmac Studio, safety PLCs and relays, Inovance servo drives, VFDs, Ignition HMI, SCADA, MES
+    - label: Robotics and Vision
+      details: FANUC (TP, ROBOGUIDE), EOAT design, Keyence (IV4, laser markers, AutoID), Cognex, light curtains and interlocks, request-to-enter
+    - label: Networks and Software
+      details: EtherNet/IP, PROFINET, ROS 2, Python, SQL (MySQL), C/C++, Git
     - label: Design and Quality
-      details: SOLIDWORKS, GD&T, EOAT, fixtures, pneumatics, hydraulics, PFMEA, 8D, CAPA, DMAIC, FAI
+      details: SOLIDWORKS, AutoCAD, EPLAN, GD&T, DFM, DFMEA, PFMEA, 8D, CAPA, FAI, PPAP, Mitutoyo CMM
     education:
     - institution: Purdue University
       area: Mechanical Engineering
