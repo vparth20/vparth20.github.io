@@ -57,11 +57,11 @@ cv:
     - label: Controls
       details: Allen-Bradley Studio 5000, Siemens TIA Portal, Omron Sysmac Studio, safety PLCs and relays, Inovance servo drives, VFDs, Ignition HMI, SCADA, MES
     - label: Robotics and Vision
-      details: FANUC (TP, ROBOGUIDE), EOAT design, Keyence (IV4, laser markers, AutoID), Cognex, light curtains and interlocks, request-to-enter
+      details: FANUC (TP, ROBOGUIDE), EOAT design, Keyence (IV4, laser markers, AutoID), light curtains and interlocks, request-to-enter
     - label: Networks and Software
-      details: EtherNet/IP, PROFINET, ROS 2, Python, SQL (MySQL), C/C++, Git
+      details: EtherNet/IP, ROS 2, Python, SQL (MySQL), C/C++, Git
     - label: Design and Quality
-      details: SOLIDWORKS, AutoCAD, EPLAN, GD&T, DFM, DFMEA, PFMEA, 8D, CAPA, FAI, PPAP, Mitutoyo CMM
+      details: SOLIDWORKS, EPLAN, GD&T, DFM, DFMEA, PFMEA, 8D, CAPA, FAI, PPAP, Mitutoyo CMM
     education:
     - institution: Purdue University
       area: Mechanical Engineering
